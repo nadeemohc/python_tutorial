@@ -19,3 +19,15 @@ print('My age is 21')
 company_name = "Brototype"
 location = "Maradu"
 print(company_name)
+print(location)
+
+
+name = "Nadeem"
+age = 21
+color = "Black"
+
+
+#ADDING STMTS TO OUTPUT
+
+print(company_name,"is located at",location)
+print(name,age,"years old like",color,"color")
