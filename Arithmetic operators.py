@@ -14,4 +14,3 @@
 
     #7 FLOOR DIVISION(//)       //To discard decimal point
 
-    
