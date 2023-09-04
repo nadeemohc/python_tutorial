@@ -45,3 +45,58 @@ if(num % 2 == 0):
     print("Entered number is positive")
 else:
     print("Entered number is negative")
+
+
+
+#if__elif__else()
+
+#SYNTAX
+
+if(condition):
+    print("Stmt")
+elif(condition):
+    print("stmt")
+elif (condition):
+    print("stmt")
+elif(condition):
+    print("stmt")
+elif(condition):
+    print("stmt")
+else:
+    print("statement")
+
+
+#EX_1 (
+
+num = int(input("Enter a Number"))
+if(num < 0):
+    print("Entered number is Negative")
+elif(num > 0):
+    print("Entered number is Positive")
+else:
+    print("Entered number is Zero")
+
+
+#EX_2
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+if(num1 > num2):
+    print("First Number is largest")
+elif(num2 > num1):
+    print("Second Numbeer is largest")
+else:
+    print("Entered Numbers are Equal")
+
+
+#EX_3
+
+num1 = int(input("Enter first number"))
+num2 = int(input("Enter second number"))
+num3 = int(input("Enter third number"))
+if(num1 > num2) & (num1 > num3):
+    print("num1 is largest")
+elif(num2 > num1) & (num2 > num3):
+    print("num2 is largest")
+else:
+    print("num3 is largest")
