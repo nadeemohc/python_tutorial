@@ -48,3 +48,55 @@
 #     print("E grade")
 # else:
 #     print("Failed")
+
+
+
+#6
+
+
+# day = int(input("Enter the Day number: "))
+# if day == 1:
+#     print("Sunday")
+# elif day == 2:
+#     print("Monday")
+# elif day == 3:
+#     print("Tuesday")
+# elif day == 4:
+#     print("Wednesday")
+# elif day == 5:
+#     print("Thursday")
+# elif day == 6:
+#     print("Friday")
+# elif day == 7:
+#     print("Saturday")
+# else:
+#     print("Invalid Entry")
+
+
+#7
+
+#using For loop
+
+
+# i = 1
+# j = 11
+# num = int(input("Enter a Number: "))
+# for i in range(i,j):
+#     mul = num * i
+#     print(f"{i} x {num}={mul}")
+
+#USING WHILE LOOP
+
+
+i = 1
+j = 10
+num = int(input("Enter a number: "))
+while(i<=j):
+    mul = i * num
+    print(f"{i} X {num} = {mul}")
+    i+=1
+
+
+#8
+
+
