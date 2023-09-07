@@ -20,3 +20,17 @@ for i in range(1,51):
 
 #CONTINUE
 
+for i in range(1,50):
+    if(i == 45):
+        continue            #Skips the loop when condition satisfies
+    print(i)
+    i+=1
+
+
+#PASS
+
+for i in range(1,50):
+    if(i == 25):
+        pass                #No change in code (does Nothing)
+    print(i)
+    i+=1
