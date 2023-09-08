@@ -76,54 +76,90 @@
 #EX_6 (Calculator)
 
 #FUNCTIONS_SECTION
-def addition():
-    num1 = int(input("Enter a Number: "))
-    num2 = int(input("Enter a Number: "))
-    sum: int = num1 + num2
-    print("Sum of entered numbers:",sum)
+# def addition():
+#     num1 = int(input("Enter a Number: "))
+#     num2 = int(input("Enter a Number: "))
+#     sum: int = num1 + num2
+#     print("Sum of entered numbers:",sum)
+#
+# def subtraction():
+#     num1 = int(input("Enter the Number: "))
+#     num2 = int(input("Enter the Number: "))
+#     diff: int = num1 - num2
+#     print("Difference of entered numbers:",diff)
+#
+# def multiplication():
+#     num1 = int(input("Enter the Number: "))
+#     num2 = int(input("Enter the Number: "))
+#     mul = num1 * num2
+#     print("Product of entered numbers:",mul)
+#
+# def division():
+#     num1 = int(input("Enter the Number: "))
+#     num2 = int(input("Enter the Number: "))
+#     quotient: float = num1 / num2
+#     print("Quotient of entered numbers: ",quotient)
+#
+# def modulus():
+#     num1 = int(input("Enter the number: "))
+#     num2 = int(input("Enter the number: "))
+#     modulus: int = num1 % num2
+#     print("Remainder of the entered numbers: ",modulus)
+#
+#
+#
+# print("Available operations in calculator:-\n"
+#       "1. Addition\n"
+#       "2. Subtraction\n"
+#       "3. Multiplication\n"
+#       "4. Quotient\n"
+#       "5. Remainder\n")
+# opr = int(input("Select an operation from below:"))
+# if(opr == 1):
+#     print(addition())
+# elif(opr == 2):
+#     print(subtraction())
+# elif(opr == 3):
+#     print(multiplication())
+# elif(opr == 4):
+#     print(division())
+# elif(opr == 5):
+#     print(modulus())
+# else:
+#     print("Invalid Entry")
 
-def subtraction():
-    num1 = int(input("Enter the Number: "))
-    num2 = int(input("Enter the Number: "))
-    diff: int = num1 - num2
-    print("Difference of entered numbers:",diff)
+#   2 Function with arguments and no return type
 
-def multiplication():
-    num1 = int(input("Enter the Number: "))
-    num2 = int(input("Enter the Number: "))
-    mul = num1 * num2
-    print("Product of entered numbers:",mul)
+#Syntax
 
-def division():
-    num1 = int(input("Enter the Number: "))
-    num2 = int(input("Enter the Number: "))
-    quotient: float = num1 / num2
-    print("Quotient of entered numbers: ",quotient)
-
-def modulus():
-    num1 = int(input("Enter the number: "))
-    num2 = int(input("Enter the number: "))
-    modulus: int = num1 % num2
-    print("Remainder of the entered numbers: ",modulus)
+# def fn_name():
+#     condition
+# call()
 
 
+#EX_1
 
-print("Available operations in calculator:-\n"
-      "1. Addition\n"
-      "2. Subtraction\n"
-      "3. Multiplication\n"
-      "4. Quotient\n"
-      "5. Remainder\n")
-opr = int(input("Select an operation from below:"))
-if(opr == 1):
-    print(addition())
-elif(opr == 2):
-    print(subtraction())
-elif(opr == 3):
-    print(multiplication())
-elif(opr == 4):
-    print(division())
-elif(opr == 5):
-    print(modulus())
-else:
-    print("Invalid Entry")
+# def add(num1 , num2):
+#     sum = num1 + num2
+#     print(sum)
+#
+# add(1,2)
+
+
+#EX_2
+
+# def Area_rect(l,b):
+#     area = 2*(l+b)
+#     print("Area of the rectangle is: ",area)
+#     Area_rect(3,8)
+
+
+
+#EX_3
+
+def ar_crcl(r):
+    area = (3.14*(r**2))
+    print("Area of circle: ",area)
+
+
+ar_crcl(7)
